@@ -88,8 +88,8 @@ export default function Home () {
             {data.data.map((v: any) => (<div key={v.id}>
               <ButtonGroup>
                 {/*{`${check(v.id)}`}*/}
-                <Button onClick={() => add(v.id, true)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "solid" : "ghost")} className={"w-40 h-16"}>{v.home_team.full_name}</Button>
-                <Button onClick={() => add(v.id, false)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "ghost" : "solid")} className={"w-40 h-16"}>{v.visitor_team.full_name}</Button>
+                <Button onClick={() => add(v.id, true)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "solid" : "ghost")} className={"w-44 h-16"}>{v.home_team.full_name}</Button>
+                <Button onClick={() => add(v.id, false)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "ghost" : "solid")} className={"w-44 h-16"}>{v.visitor_team.full_name}</Button>
               </ButtonGroup>
             </div>))}
             <Button onClick={() => submit()} color="primary" className={"mt-3"}>
