@@ -7,6 +7,14 @@ import { undefined } from 'zod'
 import { useAccount, useWriteContract } from 'wagmi'
 import { abi } from '@/utils'
 import { bytesToHex, stringToBytes } from 'viem'
+// import { Countdown } from '@/app/(components)/Countdown'
+import dynamic from 'next/dynamic'
+import { config } from '@/app/config/config'
+
+const Countdown = dynamic(
+  () => import("./(components)/Countdown"),
+  { ssr: false }
+)
 
 // @ts-ignore
 const fetcher = (...args: any[]) => fetch(...args).then((res) => res.json())
@@ -81,7 +89,8 @@ export default function Home () {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between px-4">
+      <Countdown time={config.endTime} />
       {
         data
         ? <>
@@ -92,7 +101,7 @@ export default function Home () {
                 <Button onClick={() => add(v.id, false)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "ghost" : "solid")} className={"w-44 h-16"}>{v.visitor_team.full_name}</Button>
               </ButtonGroup>
             </div>))}
-            <Button onClick={() => submit()} color="primary" className={"mt-3"}>
+            <Button onClick={() => submit()} color="primary" className={"mt-3"} disabled={Math.floor(Date.now() / 1000) > config.endTime}>
               Submit
             </Button>
           </>
