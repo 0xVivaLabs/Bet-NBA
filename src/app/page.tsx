@@ -73,7 +73,7 @@ export default function Home () {
     // if(address) {
       writeContract({
         abi,
-        address: config.address,
+        address: config.address as `0x${string}`,
         functionName: 'sendPacket',
         args: [
           bytesToHex(stringToBytes(config.channel), { size: 32 }),
