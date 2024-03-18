@@ -82,7 +82,7 @@ export default function Home() {
   }, [isConfirmed])
 
   return (
-    <main className="container flex min-h-screen flex-col items-center justify-center gap-y-3 px-4">
+    <main className="flex w-full min-h-screen flex-col items-center justify-center gap-y-3">
       <Countdown time={config.endTime} />
       {data ? (
         <>
