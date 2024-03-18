@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1038575,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-18T23:00:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 12,
+      "conference": "East",
+      "division": "Central",
+      "city": "Indiana",
+      "name": "Pacers",
+      "full_name": "Indiana Pacers",
+      "abbreviation": "IND"
+    },
+    "visitor_team": {
+      "id": 6,
+      "conference": "East",
+      "division": "Central",
+      "city": "Cleveland",
+      "name": "Cavaliers",
+      "full_name": "Cleveland Cavaliers",
+      "abbreviation": "CLE"
+    }
+  },
+  {
+    "id": 1038576,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-18T23:30:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 2,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Boston",
+      "name": "Celtics",
+      "full_name": "Boston Celtics",
+      "abbreviation": "BOS"
+    },
+    "visitor_team": {
+      "id": 9,
+      "conference": "East",
+      "division": "Central",
+      "city": "Detroit",
+      "name": "Pistons",
+      "full_name": "Detroit Pistons",
+      "abbreviation": "DET"
+    }
+  },
+  {
+    "id": 1038577,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-18T23:30:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 23,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "Philadelphia",
+      "name": "76ers",
+      "full_name": "Philadelphia 76ers",
+      "abbreviation": "PHI"
+    },
+    "visitor_team": {
+      "id": 16,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Miami",
+      "name": "Heat",
+      "full_name": "Miami Heat",
+      "abbreviation": "MIA"
+    }
+  },
+  {
+    "id": 1038578,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-19T00:00:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 5,
+      "conference": "East",
+      "division": "Central",
+      "city": "Chicago",
+      "name": "Bulls",
+      "full_name": "Chicago Bulls",
+      "abbreviation": "CHI"
+    },
+    "visitor_team": {
+      "id": 25,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Portland",
+      "name": "Trail Blazers",
+      "full_name": "Portland Trail Blazers",
+      "abbreviation": "POR"
+    }
+  },
+  {
+    "id": 1038579,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-19T01:00:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 29,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Utah",
+      "name": "Jazz",
+      "full_name": "Utah Jazz",
+      "abbreviation": "UTA"
+    },
+    "visitor_team": {
+      "id": 18,
+      "conference": "West",
+      "division": "Northwest",
+      "city": "Minnesota",
+      "name": "Timberwolves",
+      "full_name": "Minnesota Timberwolves",
+      "abbreviation": "MIN"
+    }
+  },
+  {
+    "id": 1038580,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-19T02:00:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 10,
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Golden State",
+      "name": "Warriors",
+      "full_name": "Golden State Warriors",
+      "abbreviation": "GSW"
+    },
+    "visitor_team": {
+      "id": 20,
+      "conference": "East",
+      "division": "Atlantic",
+      "city": "New York",
+      "name": "Knicks",
+      "full_name": "New York Knicks",
+      "abbreviation": "NYK"
+    }
+  },
+  {
+    "id": 1038581,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-19T02:00:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 26,
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Sacramento",
+      "name": "Kings",
+      "full_name": "Sacramento Kings",
+      "abbreviation": "SAC"
+    },
+    "visitor_team": {
+      "id": 15,
+      "conference": "West",
+      "division": "Southwest",
+      "city": "Memphis",
+      "name": "Grizzlies",
+      "full_name": "Memphis Grizzlies",
+      "abbreviation": "MEM"
+    }
+  },
+  {
+    "id": 1038582,
+    "date": "2024-03-18",
+    "season": 2023,
+    "status": "2024-03-19T02:30:00Z",
+    "period": 0,
+    "time": null,
+    "postseason": false,
+    "home_team_score": 0,
+    "visitor_team_score": 0,
+    "home_team": {
+      "id": 14,
+      "conference": "West",
+      "division": "Pacific",
+      "city": "Los Angeles",
+      "name": "Lakers",
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL"
+    },
+    "visitor_team": {
+      "id": 1,
+      "conference": "East",
+      "division": "Southeast",
+      "city": "Atlanta",
+      "name": "Hawks",
+      "full_name": "Atlanta Hawks",
+      "abbreviation": "ATL"
+    }
+  }
+]
