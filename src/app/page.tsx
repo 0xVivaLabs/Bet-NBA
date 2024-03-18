@@ -73,10 +73,10 @@ export default function Home () {
     // if(address) {
       writeContract({
         abi,
-        address: '0x3Da40011E7679973FaA6CAeF0c9f6AB0468fc59a',
+        address: config.address,
         functionName: 'sendPacket',
         args: [
-          bytesToHex(stringToBytes('channel-37564'), { size: 32 }),
+          bytesToHex(stringToBytes(config.channel), { size: 32 }),
           36000,
           address,
           id,
