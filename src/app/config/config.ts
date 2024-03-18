@@ -1,5 +1,5 @@
 export const config = {
   endTime: 1710799200,
-  address: '0x3Da40011E7679973FaA6CAeF0c9f6AB0468fc59a',
-  channel: 'channel-37564'
+  address: '0x3EAd6F519fF9a5620699e98Ab5B345C466240d97',
+  channel: 'channel-37744',
 }
