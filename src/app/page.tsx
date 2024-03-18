@@ -8,6 +8,7 @@ import { useAccount, useWriteContract } from 'wagmi'
 import { abi } from '@/utils'
 import { bytesToHex, stringToBytes } from 'viem'
 
+// @ts-ignore
 const fetcher = (...args: any[]) => fetch(...args).then((res) => res.json())
 
 export default function Home () {
@@ -84,7 +85,7 @@ export default function Home () {
       {
         data
         ? <>
-            {data.data.map(v => (<div key={v.id}>
+            {data.data.map((v: any) => (<div key={v.id}>
               <ButtonGroup>
                 {/*{`${check(v.id)}`}*/}
                 <Button onClick={() => add(v.id, true)} color="primary" variant={check(v.id) === undefined ? "ghost" : (check(v.id) ? "solid" : "ghost")} className={"w-40 h-16"}>{v.home_team.full_name}</Button>
